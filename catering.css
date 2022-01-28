@@ -1,0 +1,296 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: blue;
+    text-transform: capitalize;
+    transition: all 2s;
+    transition-delay: 2s;
+}
+
+body:hover {
+    background-color: midnightblue;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: indigo;
+    }
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: green;
+}
+
+@media only screen and (max-width:600px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.img {
+    background-image: url("image-2/images-2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    animation: background 60s ease 10s 4 backwards;
+}
+
+@keyframes background {
+    10% {
+        background-image: url(image-2/images-1.jpg);
+    }
+    50% {
+        background-image: url(image-2/download-1.jpg);
+    }
+    100% {
+        background-image: url(image-2/download.jpg);
+    }
+}
+
+.img script {
+    text-align: center;
+    color: white;
+}
+
+.img:hover {
+    background-image: url(image-2/images-1.jpg);
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (max-width:600px) {
+    .img {
+        width: 100%;
+        height: 300px;
+        background-image: url(image-2/download-1.jpg);
+    }
+}
+
+.food {
+    margin-left: 17%;
+    margin-top: 5%;
+    transition: 2s;
+}
+
+.food:hover {
+    transform: skewY(100deg);
+}
+
+.feel {
+    transition: 3s;
+    text-align: center;
+    background-color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    transition-delay: 2s;
+}
+
+.feel:hover h2 {
+    transform: skew(250deg) scale(4) translateY(10px);
+    font-size: 10px;
+    color: white;
+}
+
+.img h1 {
+    color: white;
+    padding-top: 10%;
+    margin-left: 5px;
+    font-style: oblique;
+}
+
+@media only screen and (max-width:600px) {
+    .img h1 {
+        padding-top: 60%;
+    }
+}
+
+#nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-2 {
+    display: flex;
+    margin-left: 70%;
+}
+
+@media only screen and (max-width:600px) {
+    .navbar-2 {
+        margin-left: 0%;
+    }
+}
+
+.nav-2 {
+    margin: 5px;
+}
+
+.nav-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+@media screen and (max-width:600px) {
+    .flex {
+        flex-direction: column;
+        color: white;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .food {
+        margin-left: 5%;
+        width: 70%;
+    }
+}
+
+#grid {
+    margin-left: 8%;
+}
+
+#flex-m {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+@media screen and (max-width:600px) {
+    #flex-m {
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    #flex-m h4 {
+        color: grey;
+    }
+}
+
+.menu h3 {
+    margin-top: 20px;
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .menu h1 {
+        color: green;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .lorem {
+        color: silver;
+    }
+}
+
+.img-m {
+    margin-left: 8%;
+}
+
+@media screen and (max-width:600px) {
+    .img-m {
+        margin-top: 1%;
+    }
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.Name {
+    border: 3px black solid;
+    width: 70%;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    background-color: white;
+}
+
+#submit {
+    border: 5px solid gold;
+    font-size: 20px;
+    margin-left: 10%;
+    transition: all 2s;
+}
+
+
+/*
+#submit:hover {
+    background-color: grey;
+    background-color: lawngreen;
+    transform: translate(35px);
+    transform: skew(405deg, 405deg);
+}*/
+
+#contact {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width:600px) {
+    #contact {
+        color: silver;
+    }
+}
+
+.fashion {
+    background-image: url(Image/Carlos.jpg);
+    width: 10%;
+    margin: auto;
+    background-size: cover;
+    height: 100px;
+}
+
+.fashion-2 {
+    background-image: url(Image/Kendall.jpg);
+    width: 10%;
+    margin: auto;
+    background-size: cover;
+    height: 100px;
+}
+
+.type {
+    border: 2px solid green;
+    margin: 10%;
+    padding: 1%;
+}
+
+hr {
+    width: 100%;
+}
+
+.btn {
+    background-color: red;
+    float: right;
+    padding: 2px;
+}
+
+.list {
+    margin: 5px;
+    list-style: none;
+    font-size: large;
+}
+
+#text {
+    border-radius: 5px;
+}
